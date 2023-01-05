@@ -1,9 +1,16 @@
 import React,{useState} from "react";
+
 import Tabela from "./componentes/Tabela";
 import Peso from "./componentes/Peso";
 import Altura from "./componentes/Altura";
 import Resultado from "./componentes/Resultado";
 import Calcular from "./componentes/Calcular";
+
+import TabelaIMC from "./componentes/componentes-classe/TabelaIMC";
+import PesoIMC from "./componentes/componentes-classe/PesoIMC";
+import AlturaIMC from "./componentes/componentes-classe/AlturaIMC";
+import CalcularIMC from "./componentes/componentes-classe/CalcularIMC";
+import ResultadoIMC from "./componentes/componentes-classe/ResultadoIMC";
 
 const tabelaIMC = ()=>{
   return(
@@ -111,6 +118,16 @@ export default function App() {
             <Resultado res={resultado}/>
           </div>
         </div>
+      </div>
+      <div style={{marginTop: '25.5%', marginLeft: '3%', position: 'absolute'}}>
+        <h1>Mesmo esquema, porém em componentes de classe</h1>
+      </div>
+      <div style={{gap: '50px',display: 'flex', marginTop: '32%', marginLeft: '3%', position: 'absolute', width:'99.2%'}}>
+        <PesoIMC p={peso} sp={setPeso}/>
+        <AlturaIMC h={altura} sh={setAltura}/>
+        <CalcularIMC p={peso} h={altura} sRes={setResultado}/>
+        <ResultadoIMC res={resultado}/>
+        <TabelaIMC/>
       </div>
     </div>
   );
