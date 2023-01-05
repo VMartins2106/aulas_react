@@ -1,0 +1,20 @@
+
+REACT
+
+Após instalar o node.js, vá para a pasta que
+quer criar um projeto, abra ela com o terminal
+(ou entre na pasta desejada pelo terminal), e
+dê o comando:
+
+--> npx create-react-app 'nome do app'
+
+logo após a criação do app ser realizada, podemos, 
+pelo próprio terminal, entrar na pasta com - cd 'nome'
+e inserir o seguinte comando para startar o projeto
+
+--> npm start
+
+Isso fará com que uma guia no navegador seja aberta
+com o projeto em questão
+
+

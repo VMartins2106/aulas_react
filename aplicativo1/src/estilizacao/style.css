@@ -1,0 +1,18 @@
+.texto{
+    color: rgb(6, 177, 6);
+    font-size: 1em;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caixa a{
+    text-decoration: none;
+    color: brown;
+}
+.caixa a:hover{
+    background-color: #f00;
+    color: #fff;
+}
