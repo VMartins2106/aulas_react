@@ -2,32 +2,32 @@
 Desenvolvendo paginas e aprendendo cada funcionalidade do React
 
 
+
 APLICATIVO 1
 
--- Primeiro contato
--- Primeiras alterações no App pai
--- Criação de elementos externos
--- Puxando elementos externos para o App pai
--- Enviamos argumentos (props) a um elementos externo
--- Ligamos um elemento a outro e depois puxamos o todo
--- Alteramos os estilos com o css, puxando um arquivo
-externo ou pelo método inline/encorporado
--- Adicionamos uma função que renderiza apenas o que tiver
-mudança na tela, no caso, o relógio
+-- PRIMEIRO CONTATO
+-- PRIMEIRAS ALTERAÇÕES NO APP PAI
+-- CRIAÇÃO DE ELEMENTOS EXTERNOS
+-- PUXANDO ELEMENTOS EXTERNOS PARA O APP PAI
+-- ENVIANDO ARGUMENTOS (PROPS) A UM ELEMENTO EXTERNO
+-- LIGANDO UM ELEMENTO A OUTRO E DEPOIS PUXANDO O TODO
+-- ALTERANDO O CSS, PUXANDO ARQUIVO EXTERNO OU PELO MÉTODO INLINE/ENCORPORADO
+-- ADICIONANDO UMA FUNÇÃO QUE RENDERIZA APENAS O QUE TIVER MUDANÇA NA TELA,
+NO CASO, UM RELÓGIO
 
 APLICATIVO 2
 
--- Mexemos com State
--- Eventos em React
--- Renderização condicional
+-- MEXENDO COM STATE
+-- EVENTO EM REACT
+-- RENDERIZAÇÃO CONDICIONAL
 
 APLICATIVO 3
 
--- Mexendo em listas, usando o MAP
--- Resgatando informações de um Formulário
--- Resgatando informações de uma Selection
--- Utilizando state
--- Elevação do state
+-- MEXENDO EM LISTAS, USANDO O MAP
+-- RESGATANDO INFORMAÇÕES DE UM FORMULÁRIO
+-- RESGATANDO INFORMAÇÕES DE UMA SELECTION
+-- UTILIZANDO STATE
+-- ELEVAÇÃO DO STATE
 
 APLICATIVO 4
 
