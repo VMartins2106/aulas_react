@@ -1,0 +1,27 @@
+
+UTILIZAREMOS UMA API CRIADA POR NÓS MESMOS, UTILIZANDO O SITE:
+
+repLit
+
+(link para meu perfil = https://replit.com/@VictorMartins24)
+
+CRIAMOS UM repLit em Node.js, e colocamos os seguintes códigos:
+
+var carros = '['+
+  '{"id": 1,"marca":"Honda","modelo":"HRV"},'+
+  '{"id": 2,"marca":"VW","modelo":"Golf"},'+
+  '{"id": 3,"marca":"Fiat","modelo":"Toro"},'+
+  '{"id": 4,"marca":"GM","modelo":"Tracker"}'+
+  ']'
+//var obj=JSON.parse(carros)
+var http=require('http')
+var server=http.createServer(function(request,response){
+  response.setHeader('Access-Control-Allow-Origin',"*")
+  response.writeHeader(200,{"Content-Type":"text/html"})
+  response.write(carros)
+  response.end()
+});
+server.listen(3000)
+
+TUDO ISSO JÁ FAZ COM QUE, SE A APLICAÇÃO ESTIVER ABERTA E 
+RODANDO, QUALQUER UM QUE A ACESSE CONSEGUIRÁ PEGAR O RETORNO
